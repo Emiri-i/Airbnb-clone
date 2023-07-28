@@ -8,9 +8,6 @@ export default function Home() {
   return (
     <main>
       <div className="">
-        <title>Clone Airbnb</title>
-        <h1>Let's build Airbnb</h1>
-
         <Header></Header>
 
         {/* Banner */}
