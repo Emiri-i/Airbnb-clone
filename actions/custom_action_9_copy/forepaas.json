@@ -1,8 +1,8 @@
 {
     "action": "custom",
-    "action_id": "670d2ac198a96249f675132c",
+    "action_id": "670e32d198a96249f67514aa",
     "description": "",
-    "display_name": "Custom action (9)",
+    "display_name": "Custom action (9) (Copy)",
     "environment": {
         "_id": "670d2ac198a96249f675132d",
         "build": null,
@@ -44,14 +44,16 @@
             "version": "latest"
         }
     ],
-    "name": "custom_action_9",
+    "name": "custom_action_9_copy",
     "params": {
         "content": "",
         "dependencies": {
             "python": {}
         },
         "filename": "main.py",
-        "func": "customfunc"
+        "func": "customfunc",
+        "stop_on_failure": false,
+        "timeout": "2h"
     },
     "tags": {
         "path": "",
